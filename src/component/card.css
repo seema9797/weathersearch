@@ -1,0 +1,67 @@
+.background{
+    background-color:aqua
+}
+input {
+    width: 82%;
+  
+  border: 1px solid #ada9a9;
+  padding: 1% 6%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  outline: 0;
+  background-position: 12px;
+  background-size: 20px;
+}
+button {
+    outline: 0;
+    border: none;
+    background-color: whitesmoke;
+    padding: 1% 6%;
+}
+.current_weather{
+    display: flex;
+    justify-content: space-around;
+}
+.current_status{
+  margin-right: 400px;
+  display: flex;
+}
+.all_weather{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon_weather p{
+  font-size:20px;
+  color:grey
+}
+.currentcolor h5,h1{
+    color:cadetblue
+}
+.bslog h6{
+    color:cadetblue
+}
+.bslog p{
+    font-size:20px;
+  color:grey
+}
+.degree{
+     margin-left: 20px;
+    font-size:60px;
+}
+.bslog{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-bottom:30px
+}
+.bslog i{
+    font-weight: bold;
+    font-size:25px;
+    color:grey;
+    margin-right:20px;
+   
+}
+.arrow{
+    display: flex;
+}
